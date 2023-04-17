@@ -1,0 +1,16 @@
+pimcore:
+    staticroutes:
+        definitions:
+            10fa47d3-4233-45e9-896c-ef4d347c1484:
+                name: test
+                pattern: /\/testme
+                reverse: ''
+                controller: 'App\Controller\CustomRestController::testAction'
+                variables: ''
+                defaults: ''
+                siteId: {  }
+                methods:
+                    - GET
+                priority: 1
+                creationDate: 1681715090
+                modificationDate: 1681715962
